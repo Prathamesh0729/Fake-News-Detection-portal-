@@ -71,6 +71,7 @@ const Home = () => {
         mode,
       });
 
+      console.log("ANALYZE RESPONSE:", res.data);
       setResult(res.data);
       loadHistory();
     } catch (e) {
